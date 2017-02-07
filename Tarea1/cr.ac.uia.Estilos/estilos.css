@@ -1,0 +1,82 @@
+﻿body {
+    color: gainsboro
+}
+
+ul.Navegador {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dodgerblue;
+
+}
+ul.Navegador li{
+    float: left;
+
+}
+
+ul.Navegador li.right{
+    float: right;
+
+}
+
+ul.Navegador li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 17px;
+
+}
+
+ul.Navegador li a:hover {
+    background-color: black;
+
+}
+
+header{
+    text-align: center;
+    font-size: 45px;    
+
+}
+
+hr{
+    color: royalblue;
+    align-self: center;
+    margin-left:400px;
+    margin-right:400px;
+
+}
+
+img.centro {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#letraG{
+        font-size: 50px;        
+        margin-left:200px;             
+        }
+
+#letraP{
+        text-align: justify;
+        font-size: 20px;
+        margin-left:200px;
+        margin-right:400px;             
+       }
+#letraM{
+        font-size: 30px;
+        margin-left:550px;
+        align-items: center;             
+       }
+
+#letraMC{
+        font-size: 30px;
+        margin-left:100px;
+        margin-right:300px;
+        align-items: center;             
+       }
